@@ -81,7 +81,7 @@ cardElements.forEach((cardEl) => {
         coinCount -= 20;
         if (coinCount < 0) {
             coinCount = 0;
-            alert("Not enough coins! Minimum 20 coins required.");
+            alert("Sorry ! Minimum 20 coins needed.");
             return;
         } else {
             alert(`Calling ${cardTitle} ${phoneNumber}...`);
